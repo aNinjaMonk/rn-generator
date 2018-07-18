@@ -22,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/aNinjaMonk/rn-generator/issues"
   },
-  "homepage": "https://github.com/aNinjaMonk/rn-generator#readme"
+  "homepage": "https://github.com/aNinjaMonk/rn-generator#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^3.1.2",
+    "minimist": "^1.2.0",
+    "simple-git": "^1.96.0"
+  }
 }
