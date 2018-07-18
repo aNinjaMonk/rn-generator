@@ -1,5 +1,5 @@
 {
-  "name": "app-generator",
+  "name": "rn-generate",
   "version": "1.0.0",
   "description": "Generate React Native apps boilerplate for getting things up & running fast.",
   "main": "index.js",
@@ -28,7 +28,12 @@
     "clear": "^0.1.0",
     "clui": "^0.3.6",
     "configstore": "^3.1.2",
+    "inquirer": "^6.0.0",
     "minimist": "^1.2.0",
     "simple-git": "^1.96.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "rn-generate": "index.js"
   }
 }
